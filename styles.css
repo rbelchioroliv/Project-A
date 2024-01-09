@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@900&display=swap');
+
+
+body, html {
+    margin: 0;
+    font-family: 'Noto Serif', serif;
+    color: white;
+    background-image: url('https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt881609ccc5207499/60b1901d3aac347374b5d9d1/VALORANT_YR1_ArticleHero_16_9.jpg');
+    background-size: cover;
+    min-height: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    
+}
+
+header h1 img{
+    width: 78px;
+
+}
+
+/* Restante do seu CSS permanece o mesmo */
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    font-family: 'Noto Serif', serif;
+    
+}
+
+nav li{
+    transition: 0.5s;
+}
+nav li:hover{
+    transform: scale(1.5);
+}
+
+.hero {
+    padding: 20px 0;
+    text-align: center;
+    background-color: rgba(220, 220, 220, 0.7);
+    border-radius: 10px;
+    font-family: 'Noto Serif', serif;
+    color: rgb(28,28,28);
+    font-size: 28px;
+    
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    justify-content: center; /* Alinhe o grid horizontalmente */
+    align-items: center; /* Alinhe o grid verticalmente */
+    height: 50vh; /* Adicionei a altura para que o grid seja exibido corretamente */
+
+}
+
+.card {
+    background-color: rgba(220, 220, 220, 0.7); 
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 274px;
+    height: 240px;
+    font-family: 'Noto Serif', serif;
+    color: rgb(28,28,28);
+    border-radius: 10px;
+    transition: 1s;
+}
+
+
+
+img{
+    width: 274px;
+
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
+    font-family: 'Noto Serif', serif;
+    color: #F8F8FF;
+    
+}
