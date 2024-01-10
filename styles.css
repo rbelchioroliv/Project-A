@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@900&display=swap');
 
+
 /* Estilos gerais para a barra de rolagem */
 body::-webkit-scrollbar {
     width: 12px; /* Largura da barra de rolagem */
@@ -122,4 +123,26 @@ footer {
     font-family: 'Noto Serif', serif;
     color: #F8F8FF;
     
+}
+
+/* Adicionando media queries para ajustar o layout em dispositivos menores */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+
+    .card{
+        margin-top: 10px;
+        width: 90px;
+        height: 140px;
+    }
+
+    img{
+        width: 74px;
+        height: 40px;
+    }
 }
